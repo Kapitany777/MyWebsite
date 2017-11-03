@@ -7,15 +7,31 @@
 body
 {
     background-color: #f0f0f0;
-    font-family: Verdana;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 header
 {
     width: 960px;
+    height: 140px;
     margin: 0px auto;
     padding: 10px;
     background-color: #e0e0e0;
+}
+
+header img
+{
+    float: left;
+    margin: 5px 20px;
+}
+
+header div
+{
+    margin-top: 100px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 nav
@@ -29,6 +45,7 @@ nav
 nav ul
 {
     margin: 4px 5px;
+    list-style-type: none;
 }
 
 nav ul li
@@ -60,21 +77,56 @@ article
 
 article h1
 {
-    margin: 10px 0px;
+    margin: 10px 10px;
+}
+
+article h2
+{
+    margin: 10px 10px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
 }
 
 article p
 {
-    margin: 10px 15px;
+    margin: 15px 25px;
     text-align: justify;
+    line-height: 150%;
 }
 
 article img
 {
     float: left;
-    margin: 10px;
-    width: 256px;
-    height: 256px;
+    margin: 15px;
+}
+
+article ul
+{
+    margin: 15px 45px;
+    clear: left;
+}
+
+article ul.links
+{
+    list-style-type: none;
+}
+
+article div.video
+{
+    margin: 25px 0px;
+    text-align: center;
+}
+
+article a
+{
+    text-decoration: none;
+    color: #202020;
+}
+
+article a:hover
+{
+    text-decoration: underline;
+    color: #000000;
 }
 
 footer

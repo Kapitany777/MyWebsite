@@ -3,29 +3,33 @@
 <html>
     <head>
         <meta charset="utf-8" />
+        <meta name="author" content="Török Viktor" />
         <link rel="stylesheet" type="text/css" href="main.css" />
-        <title>Török Viktor (N1EEZB) honlapja</title>            
+        <title>Mesterséges intelligencia</title>            
     </head>
     
     <body>
         <header>
-            Török Viktor honlapja
+            <a href="index.php"><img src="images/logo.png" width="128" height="128" alt="Logo" /></a>
+            <div>
+                Török Viktor honlapja
+            </div>
         </header>
         
         <nav>
             <ul>
-                <li><a href="index.php">Főoldal</a></li>
+                <li><a href="index.php">Bemutatkozás</a></li>
                 <li><a href="#">Mesterséges intelligencia</a></li>
-                <li><a href="#">PIC programozás</a></li>
-                <li><a href="#">Linkek</a></li>
-                <li><a href="#">Hírlevél</a></li>
+                <li><a href="picprog.php">PIC programozás</a></li>
+                <li><a href="linkek.php">Linkek</a></li>
+                <li><a href="#">Regisztráció</a></li>
             </ul>
         </nav>
         
         <article>
             <h1>Mi a mesterséges intelligencia?</h1>
             
-            <img src="images/robot.png" />
+            <img src="images/robot.png" alt="Robot" width="256" height="256" />
             
             <p>
                 A mesterséges intelligencia (MI), vagy angolul az artificial intelligence (AI) meghatározása nem egyszerű kérdés.
