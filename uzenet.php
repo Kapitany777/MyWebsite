@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="main.css" />
-        <title>PIC programozás</title>            
+        <title>Üzenet küldése</title>            
     </head>
     
     <body>
@@ -26,20 +26,24 @@
         </nav>
         
         <article>
-            <h1>PIC programozás</h1>
+            <h1>Üzenet küldése</h1>
             
-            <p>
-                Tanulmányaim során foglalkoztam PIC mikrokontrollerek programozásával.
-                Ebben a témában készítettem két videót.
-            </p>
+            <form action="uzenetkiir.php" method="post">
+                <fieldset>
+                    <legend>Kapcsolati információk</legend>
+                    Név:<br />
+                    <input type="text" name="nev" required />
+                    <br />
+                    
+                    Email cím:<br />
+                    <input type="email" name="email" />
+                </fieldset>
+                
+                <textarea name="uzenet" rows="5" cols="50"></textarea>
+                
+                <input type="submit" value="Üzenet küldése" class="submit" />
+            </form>
             
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5QLBi_Ih3A" frameborder="0" allowfullscreen></iframe>
-            </div>
-            
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IZ5t87NoFFw" frameborder="0" allowfullscreen></iframe>
-            </div>
         </article>
         
         <footer>

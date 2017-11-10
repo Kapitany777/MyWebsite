@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="main.css" />
-        <title>PIC programozás</title>            
+        <title>Üzenet tartalmának kiírása</title>            
     </head>
     
     <body>
@@ -26,20 +26,19 @@
         </nav>
         
         <article>
-            <h1>PIC programozás</h1>
+            <h1>Üzenet tartalmának kiírása</h1>
             
-            <p>
-                Tanulmányaim során foglalkoztam PIC mikrokontrollerek programozásával.
-                Ebben a témában készítettem két videót.
-            </p>
+            <?php
+            if (isset($_POST["nev"]) && isset($_POST["email"]) && isset($_POST["uzenet"]))
+            {
             
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q5QLBi_Ih3A" frameborder="0" allowfullscreen></iframe>
-            </div>
+            }
+            else
+            {
+                print("<p><strong>Sajnos nem találtam üzenetet!</strong></p>\n");
+            }
+            ?>
             
-            <div class="video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/IZ5t87NoFFw" frameborder="0" allowfullscreen></iframe>
-            </div>
         </article>
         
         <footer>

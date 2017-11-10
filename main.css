@@ -109,6 +109,7 @@ article ul
 article ul.links
 {
     list-style-type: none;
+    line-height: 180%;
 }
 
 article div.video
@@ -127,6 +128,28 @@ article a:hover
 {
     text-decoration: underline;
     color: #000000;
+}
+
+article fieldset
+{
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+article input
+{
+    margin: 5px 10px;
+}
+
+article textarea
+{
+    margin: 10px 20px;
+}
+
+article .submit 
+{
+    margin: 5px;
+    padding: 4px 10px;
 }
 
 footer

@@ -22,7 +22,7 @@
                 <li><a href="#">Mesterséges intelligencia</a></li>
                 <li><a href="picprog.php">PIC programozás</a></li>
                 <li><a href="linkek.php">Linkek</a></li>
-                <li><a href="#">Regisztráció</a></li>
+                <li><a href="uzenet.php">Üzenet</a></li>
             </ul>
         </nav>
         
