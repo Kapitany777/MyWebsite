@@ -21,6 +21,7 @@
                 <li><a href="ai.php">Mesterséges intelligencia</a></li>
                 <li><a href="picprog.php">PIC programozás</a></li>
                 <li><a href="linkek.php">Linkek</a></li>
+                <li><a href="tesztek.php">Tesztek</a></li>
                 <li><a href="uzenet.php">Üzenet</a></li>
             </ul>
         </nav>
@@ -28,7 +29,7 @@
         <article>
             <h1>Bemutatkozás</h1>
             
-            <img src="images/avatar.jpg" alt="Török Viktor" width="150" height="150" />
+            <img src="images/avatar.jpg" alt="Török Viktor" width="150" height="150" class="illustration" />
             
             <p>
                 Név: Török Viktor<br />

@@ -22,6 +22,7 @@
                 <li><a href="#">Mesterséges intelligencia</a></li>
                 <li><a href="picprog.php">PIC programozás</a></li>
                 <li><a href="linkek.php">Linkek</a></li>
+                <li><a href="tesztek.php">Tesztek</a></li>
                 <li><a href="uzenet.php">Üzenet</a></li>
             </ul>
         </nav>
@@ -29,7 +30,7 @@
         <article>
             <h1>Mi a mesterséges intelligencia?</h1>
             
-            <img src="images/robot.png" alt="Robot" width="256" height="256" />
+            <img src="images/robot.png" alt="Robot" width="256" height="256" class="illustration" />
             
             <p>
                 A mesterséges intelligencia (MI), vagy angolul az artificial intelligence (AI) meghatározása nem egyszerű kérdés.

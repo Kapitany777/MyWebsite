@@ -21,6 +21,7 @@
                 <li><a href="ai.php">Mesterséges intelligencia</a></li>
                 <li><a href="picprog.php">PIC programozás</a></li>
                 <li><a href="linkek.php">Linkek</a></li>
+                <li><a href="tesztek.php">Tesztek</a></li>
                 <li><a href="uzenet.php">Üzenet</a></li>
             </ul>
         </nav>
@@ -31,7 +32,18 @@
             <?php
             if (isset($_POST["nev"]) && isset($_POST["email"]) && isset($_POST["uzenet"]))
             {
-            
+                print("<h2>A kapcsolati információk:</h2>\n");
+                
+                print("<ul>\n");
+                print("<li>Név: " . htmlspecialchars($_POST["nev"]) . "</li>\n");
+                print("<li>Email cím: " . htmlspecialchars($_POST["email"]) . "</li>\n");
+                print("</ul>\n");
+                
+                print("<h2>Az üzenet:</h2>\n");
+                
+                print("<p>\n");
+                print(nl2br(htmlspecialchars($_POST["uzenet"])));
+                print("<p>\n");
             }
             else
             {

@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="main.css" />
-        <title>Üzenet küldése</title>            
+        <title>PIC programozás</title>            
     </head>
     
     <body>
@@ -27,24 +27,25 @@
         </nav>
         
         <article>
-            <h1>Üzenet küldése</h1>
+            <h1>Tesztelje a weboldalt a különböző népszerűbb modern böngészőkben!</h1>
             
-            <form action="uzenetkiir.php" method="post">
-                <fieldset>
-                    <legend>Kapcsolati információk</legend>
-                    Név:<br />
-                    <input type="text" name="nev" required />
-                    <br />
-                    
-                    Email cím:<br />
-                    <input type="email" name="email" />
-                </fieldset>
-                
-                <textarea name="uzenet" rows="5" cols="50"></textarea>
-                
-                <input type="submit" value="Üzenet küldése" class="submit" />
-            </form>
+            <h2>Microsoft Edge</h2>
             
+            <p>
+                <img src="images/edge.png" alt="Google Chrome" />
+            </p>
+            
+            <h2>Firefox Quantum</h2>
+            
+            <p>
+                <img src="images/firefox.png" alt="Google Chrome" />
+            </p>
+            
+            <h2>Google Chrome</h2>
+            
+            <p>
+                <img src="images/chrome.png" alt="Google Chrome" />
+            </p>
         </article>
         
         <footer>

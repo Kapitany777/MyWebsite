@@ -96,8 +96,12 @@ article p
 
 article img
 {
-    float: left;
     margin: 15px;
+}
+
+article img.illustration
+{
+    float: left;
 }
 
 article ul

@@ -21,6 +21,7 @@
                 <li><a href="ai.php">Mesterséges intelligencia</a></li>
                 <li><a href="picprog.php">PIC programozás</a></li>
                 <li><a href="linkek.php">Linkek</a></li>
+                <li><a href="tesztek.php">Tesztek</a></li>
                 <li><a href="uzenet.php">Üzenet</a></li>
             </ul>
         </nav>
